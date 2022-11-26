@@ -1,16 +1,16 @@
 // ==UserScript==
 // @name        Looksy Import
-// @namespace   https://witness.zacharytalis.com/merge.html
-// @match       https://witness.zacharytalis.com/merge.html
+// @namespace   https://prodzpod.github.io/witness/merge.html
+// @match       https://prodzpod.github.io/witness/merge.html
 // @grant       none
 // @version     1.0
 // @author      Zachary Talis
 // @description Import from sequence file to Looksy Merger
 // ==/UserScript==
 
-/////  Update this link to wherever your sequence file is  /////
+/////                     Sequence link                     /////
 const sequenceUrl = "http://127.0.0.1:5500/sequence.seq";
-/////  Update this link to wherever your sequence file is  /////
+/////                     Sequence link                     /////
 
 function clearExistingList(list) {
     for (var i = list.childElementCount - 1; i >= 0; i--) {
